@@ -1,13 +1,16 @@
-// function transformStringToArray() {
-// }
-
-// function searchColumns() {
-//   11111111
-//   999999
-// }
+const fs = require('fs');
+const textPuzzle = fs.readFileSync('./sudoku-puzzles.txt', 'utf8');
+// console.log(textPuzzle);
+let arrPrePuzzle = textPuzzle.split('\n')[0].split('')
+let arrPuzzle = []
+ for (let i = 0; i < arrPrePuzzle.length; i++) { 
+      arrPuzzle.push(arrPrePuzzle.splice(0, 9))
+ }
+console.log(arrPuzzle)
 
 const str = '1-58-2----9--764-52--4--819-19--73-6762-83-9-----61-5---76---3-43--2-5-16--3-89--';
 const arr = [
+  
   [1, '-', 5, 8, '-', 2, '-', '-', '-'],
   ['-', 9, '-', '-', 7, 6, 4, '-', 5],
   [2, '-', '-', 4, '-', '-', 8, 1, 9],
@@ -33,7 +36,3 @@ function searchRows(array, value = 0) {
   return array;
 }
 console.log(searchRows([2, '-', '-', 4, '-', '-', 8, 1, 9]));
-
-// function test(str) {
-//   567532645167357123212112312312321
-// }
