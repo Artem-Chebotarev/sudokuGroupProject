@@ -2,14 +2,14 @@ function transformStringToArray() {
 }
 
 function searchColumns() {
-  fdakslfjdslakfjdsa; f
   11111111
+  999999
 }
 
 function searchRows() {
-
+fsdfsd
 }
 
 function test(str) {
-  testtest;
+      rewrwerwe
 }
