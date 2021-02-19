@@ -1,12 +1,15 @@
-function transformStringToArray (){
+function transformStringToArray() {
 }
 
-function searchColumns (){
- fdakslfjdslakfjdsa;f
+function searchColumns() {
+  fdakslfjdslakfjdsa; f
   11111111
 }
 
-function searchRows (){
-  21312312
-    wewq
+function searchRows() {
+
+}
+
+function test(str) {
+  testtest;
 }
